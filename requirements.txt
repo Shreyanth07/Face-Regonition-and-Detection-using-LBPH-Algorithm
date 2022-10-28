@@ -1,0 +1,17 @@
+libraries needed to be installed
+
+python 3.5.2
+OpenCV
+OpenCV-contrib
+SQLite
+numpy
+pillow
+
+
+
+run the scripts in order
+
+1]create_db.py (Creates a sqlite database to store the names)
+2]register_face.py (create a dataset of 20 images)
+3]train_model.py (trains the LBPH algorithm on dataset)
+4]f_recognize.py (to detect and recognize faces)
